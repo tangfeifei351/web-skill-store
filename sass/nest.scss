@@ -1,0 +1,19 @@
+#content {
+	article {
+		h1 {
+			color:#333;
+		}
+		p {
+			margin-bottom:1.4em;
+		}
+	}
+	aside {
+		background-color: #000;
+	}
+}
+
+article a {
+  color: blue;
+  &:hover { color: red }
+}
+/** &指向a,同级而不是后代选择**/
