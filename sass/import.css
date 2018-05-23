@@ -1,0 +1,19 @@
+@charset "UTF-8";
+a {
+  color: blue; }
+
+#content article h1 {
+  color: #333; }
+#content article p {
+  margin-bottom: 1.4em; }
+#content aside {
+  background-color: #000; }
+
+article a {
+  color: blue; }
+  article a:hover {
+    color: red; }
+
+/** &指向a,同级而不是后代选择**/
+
+/*# sourceMappingURL=import.css.map */
